@@ -1,0 +1,31 @@
+.form-container{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #487eb0;
+}
+.form-container h1{
+    color: #fff;
+    font-size: 30px;
+    line-height: 40px;
+}
+.form-content{
+      min-width: 375px;
+      width: 600px;
+      height: 100%;  
+      background: #7f8fa6;
+      padding: 20px;
+}
+
+.form-content label{
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+}
+.goback{
+   position: absolute;
+   top: 70px;
+   left: 180px;
+}
