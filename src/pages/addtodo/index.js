@@ -32,7 +32,13 @@ class AddToDOForm extends React.Component {
   
    
   };
-
+//connect mongoDB
+//查找表
+// db.getCollection('todolist')
+//创建表
+//db.createCollection({todolist, autoIndexId: true, capped:true, size:1024*3})
+//插入数据
+//db.todolist.insertOne({title:"test",content:"testCont"})
   formatTime = () => {
     let myDate = new Date()
    
